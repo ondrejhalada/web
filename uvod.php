@@ -47,7 +47,15 @@
 
 </style>
 <head>
-    <meta charset="UTF-8">
+    <title>Divergence</title>
+    <meta charset='utf-8'>
+    <meta name='description' content=''>
+    <meta name='keywords' content=''>
+    <meta name='author' content=''>
+    <meta name='robots' content='all'>
+    <!-- <meta http-equiv='X-UA-Compatible' content='IE=edge'> -->
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link href='style.css' rel='stylesheet' type='text/css'>
 </head>
 <body>
 <?php
@@ -61,6 +69,7 @@ include_once "uvod.php";
 $prikaz = "CREATE TABLE IF NOT EXISTS postavy (id INT PRIMARY KEY
  AUTO_INCREMENT, jmeno VARCHAR(50) NOT NULL, vyska INT);";
 $vysl = mysqli_query($spojeni,$prikaz);
+if ($vysl->connect_error) exit ('Při připojení k databázi došlo k chybě');
 
 /////////////////////////////////////////////////////////////////////////////////////////
 
