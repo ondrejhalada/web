@@ -69,7 +69,8 @@ include_once "uvod.php";
 $prikaz = "CREATE TABLE IF NOT EXISTS postavy (id INT PRIMARY KEY
  AUTO_INCREMENT, jmeno VARCHAR(50) NOT NULL, vyska INT);";
 $vysl = mysqli_query($spojeni,$prikaz);
-if ($vysl->connect_error) exit ('Při připojení k databázi došlo k chybě');
+if ($vysl) echo ('JUHU');
+else echo ('Při připojení k databázi došlo k chybě');
 
 /////////////////////////////////////////////////////////////////////////////////////////
 
