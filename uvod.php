@@ -1,12 +1,8 @@
 <!DOCTYPE html>
 <html lang="cz">
 <head>
-    <title>Divergence</title>
+    <title>BMI kalkulačka</title>
     <meta charset='utf-8'>
-    <meta name='description' content=''>
-    <meta name='keywords' content=''>
-    <meta name='author' content=''>
-    <meta name='robots' content='all'>
     <link rel="shortcut icon" href="images/favicon.ico">
     <link href='style.css' rel='stylesheet' type='text/css'>
 </head>
