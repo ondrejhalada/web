@@ -1,51 +1,5 @@
 <!DOCTYPE html>
 <html lang="cz">
-
-<style>
-    @keyframes example {
-        0%   {background-color: red;}
-        5%   {background-color: darkred;}
-        10%   {background-color: brown;}
-        15%   {background-color: orange;}
-        20%   {background-color: orangered;}
-        25%   {background-color: crimson ;}
-        30%   {background-color: chartreuse;}
-        35%   {background-color: darkslategray ;}
-        40%   {background-color: lawngreen;}
-        45%   {background-color: green;}
-        50%   {background-color: limegreen;}
-        55%   {background-color: darkolivegreen;}
-        60%   {background-color: royalblue;}
-        65%   {background-color: midnightblue;}
-        70%   {background-color: blue;}
-        75%   {background-color: darkturquoise;}
-        80%   {background-color: navy;}
-        85%   {background-color: turquoise;}
-        90%   {background-color: cornflowerblue;}
-        95%   {background-color: aqua;}
-        100%   {background-color: firebrick;}
-    }
-
-    body {
-        color: black;
-        font-family: "Californian FB";
-        font-size: 12px;
-        animation-name: example;
-        animation-duration: 120s;
-        height: 620px;
-        animation-iteration-count: infinite;
-    }
-    fieldset{
-        border: solid black 2px;
-    }
-
-    legend {
-        color: black;
-        text-align: center;
-        font-size: 20px;
-    }
-
-</style>
 <head>
     <title>Divergence</title>
     <meta charset='utf-8'>
@@ -53,7 +7,6 @@
     <meta name='keywords' content=''>
     <meta name='author' content=''>
     <meta name='robots' content='all'>
-    <!-- <meta http-equiv='X-UA-Compatible' content='IE=edge'> -->
     <link rel="shortcut icon" href="images/favicon.ico">
     <link href='style.css' rel='stylesheet' type='text/css'>
 </head>
