@@ -4,7 +4,7 @@
     <title>BMI kalkulačka</title>
     <meta charset='utf-8'>
     <link rel="shortcut icon" href="images/favicon.ico">
-    <link href='style.css' rel='stylesheet' type='text/css'>
+    <link href='styl.css' rel='stylesheet' type='text/css'>
 </head>
 <body>
 <?php
